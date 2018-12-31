@@ -1,0 +1,8 @@
+<html>
+  <body>
+    <form action="/compilerApiApp/submitcode" method="POST">{% csrf_token %}
+      Enter a Code : <textarea name = "code"> </textarea><br/>
+      <button type="submit" name="submit">submit</button>
+    </form>
+  </body>
+</html>
