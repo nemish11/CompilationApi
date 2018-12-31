@@ -13,16 +13,13 @@ def program_file(request):
 
 def submit_code(request):
     fs = FileSystemStorage()
-    filename = BASE_DIR + "\\compilerApiApp\\static\\code.cpp"
-    handle1=open(filename,'r+')
+    filename = BASE_DIR + "/compilerApiApp/static/code.cpp"
+    handle1=open(filename,'w+')
     handle1.write(request.POST.get('code',''))
     handle1.close()
-    subprocess.call(["cd", BASE_DIR+"\\compilerApiApp\\static"],shell=True)
+    subprocess.call(["cd", BASE_DIR+"/compilerApiApp/static"],shell=True)
     tmp = subprocess.call(["g++",filename])
-    #tmp=subprocess.call(BASE_DIR + "\\compilerApiApp\\static\\a.exe")
-    #tmp=subprocess.call(BASE_DIR + "\\compilerApiApp\\static\\code.exe")
-    tmp=subprocess.call(BASE_DIR + "./a.exe")
-    subprocess.call(["type",BASE_DIR+"\\inp.txt"],shell=True)
+    tmp = subprocess.call("./a.out")
     print()
     print ("printing result")
     print (tmp)
