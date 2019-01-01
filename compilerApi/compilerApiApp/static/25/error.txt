@@ -1,0 +1,4 @@
+/media/nemish/College/ProjectWork/sem-6-project/compilerAPI/compilerApi/compilerApiApp/static/25/codefile.cpp: In function ‘int main()’:
+/media/nemish/College/ProjectWork/sem-6-project/compilerAPI/compilerApi/compilerApiApp/static/25/codefile.cpp:18:8: warning: division by zero [-Wdiv-by-zero]
+ cout<<n/0<<endl;
+       ~^~

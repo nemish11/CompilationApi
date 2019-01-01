@@ -9,6 +9,6 @@ if g++ $1 -o $2 &> $6;
 then
   ulimit -t 2
   ulimit -m 30000
-  $3 <$4> $5
+  /usr/bin/time -v $3 <$4 &> $5
   exit
 fi

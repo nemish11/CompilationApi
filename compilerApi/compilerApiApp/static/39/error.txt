@@ -1,0 +1,3 @@
+/media/nemish/College/ProjectWork/sem-6-project/compilerAPI/compilerApi/compilerApiApp/static/39/codefile.cpp:1:2: error: expected unqualified-id before ‘/’ token
+  /usr/bin/time -v ./a.out <input1 >output1
+  ^

@@ -1,0 +1,4 @@
+/media/nemish/College/ProjectWork/sem-6-project/compilerAPI/compilerApi/compilerApiApp/static/30/codefile.cpp:1:10: fatal error: bi/stdc++.h: No such file or directory
+  #include<bi/stdc++.h>
+          ^~~~~~~~~~~~~
+compilation terminated.

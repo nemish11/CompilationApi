@@ -6,8 +6,8 @@ class Submissions(models.Model):
     language = models.CharField(max_length=20)
     isRunning = models.CharField(max_length=20,null=True)
     errortype = models.CharField(max_length=100,null=True)
-    runtime = models.IntegerField(null=True)
-    memoryused = models.IntegerField(null=True)
+    runtime = models.CharField(max_length=20,null=True)
+    memoryused = models.CharField(max_length=20,null=True)
     datetime = models.DateTimeField(null=True)
 
 class Files(models.Model):
