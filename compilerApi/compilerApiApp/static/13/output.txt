@@ -1,0 +1,3 @@
+pinak16541564
+N is :3
+string s is :

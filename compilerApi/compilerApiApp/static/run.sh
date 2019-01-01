@@ -5,8 +5,10 @@
 #  exit
 #fi
 
-if g++ $1 -o $2;
+if g++ $1 -o $2 &> $6;
 then
+  ulimit -t 2
+  ulimit -m 30000
   $3 <$4> $5
   exit
 fi

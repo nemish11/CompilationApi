@@ -1,8 +1,12 @@
 <html>
   <body>
-    <form action="/compilerApiApp/submitcode" method="POST">{% csrf_token %}
+    <form action="/compilerApiApp/submitcode" method="POST" enctype = "multipart/form-data">{% csrf_token %}
+      Enter a your name : <input type="text" name="username" required/><br/>
+      Enter a language : <input type="text" name="language" required/><br/>
+      Upload input file : <input type="file" name = "inputfile" required/><br/>
       Enter a Code : <textarea name = "code"> </textarea><br/>
       <button type="submit" name="submit">submit</button>
     </form>
+    message is : {{message}}
   </body>
 </html>
