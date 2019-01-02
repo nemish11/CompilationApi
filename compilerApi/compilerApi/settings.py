@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'compilerApi.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mysql',
+        'NAME': 'compilationApi',
         'USER':'root',
         'PASSWORD':'',
         'HOST' : '127.0.0.1',

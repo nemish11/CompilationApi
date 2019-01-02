@@ -9,7 +9,11 @@
     <form action="/compilerApiApp/submitcode" method="POST" enctype = "multipart/form-data">{% csrf_token %}
       Enter a your name : <input type="text" name="username" required/><br/><br/>
       Enter a language : <input type="text" name="language" required/><br/><br/>
-      Upload input file : <input type="file" name = "inputfile" required/><br/><br/>
+      Upload input file : <input type="file" name = "inputfile_1" required/><br/><br/>
+      Upload input file : <input type="file" name = "inputfile_2" required/><br/><br/>
+      Upload input file : <input type="file" name = "inputfile_3" required/><br/><br/>
+      Upload input file : <input type="file" name = "inputfile_4" required/><br/><br/>
+      Upload input file : <input type="file" name = "inputfile_5" required/><br/><br/>
       Enter a Code : <textarea name = "code"> </textarea><br/><br/>
       <button type="submit" name="submit">submit</button>
     </form>

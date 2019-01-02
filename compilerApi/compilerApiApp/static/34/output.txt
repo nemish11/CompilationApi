@@ -1,3 +1,0 @@
-pinak16541564
-N is :0
-string s is :dd
