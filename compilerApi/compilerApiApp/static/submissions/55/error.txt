@@ -1,0 +1,8 @@
+/media/nemish/College/ProjectWork/sem-6-project/compilerAPI/compilerApi/compilerApiApp/static/submissions/55/codefile_15.cpp: In function ‘int main()’:
+/media/nemish/College/ProjectWork/sem-6-project/compilerAPI/compilerApi/compilerApiApp/static/submissions/55/codefile_15.cpp:21:26: error: expected ‘;’ before ‘}’ token
+   cout<<"N is :"<<n<<endl
+                          ^
+                          ;
+/media/nemish/College/ProjectWork/sem-6-project/compilerAPI/compilerApi/compilerApiApp/static/submissions/55/codefile_15.cpp:23:2:
+  }
+  ~                        

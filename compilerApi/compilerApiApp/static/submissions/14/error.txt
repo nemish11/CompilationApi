@@ -1,0 +1,4 @@
+/media/nemish/College/ProjectWork/sem-6-project/compilerAPI/compilerApi/compilerApiApp/static/submissions/14/codefile.cpp:13:2: error: expected ‘;’ after struct definition
+ }
+  ^
+  ;

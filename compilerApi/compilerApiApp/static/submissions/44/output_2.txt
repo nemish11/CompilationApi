@@ -1,0 +1,6 @@
+N is :6
+N is :7
+N is :8
+N is :9
+N is :10
+	
